@@ -50,9 +50,13 @@ Accuracy and loss plots along with Confusion matrix is plotted for all models.
 Validation accuracies are as follows
 
 Customized CNN - 89%
+
 VGG16 - 89.13%
+
 Inception_V3 - 85.8%
+
 ResNet50 - 82%
+
 mobileNet - 91%
 
 MobileNet is best in all aspects (Accuracy,Precision,Recall)
