@@ -17,7 +17,8 @@ Shepherd's Purse
 Small-flowered Cranesbill
 Sugar beet
 
-The Train, Test and Prediction data is separated . There are around 3319 images in Train, 794 in Test and 1431 in validation.
+The Train, Test and Prediction data is separated . 
+There are around 3319 images in Train, 794 in Test and 1431 in validation.
 The Train and validation images are grouped in folders according to their classes and hence ImageDataGenerated gets hold of their class labels.
 The images from test folder are used for validation during training.
 Prediction images are not grouped in folders according to their classes and hence we can not calculate test accuracy using these images.
@@ -43,11 +44,15 @@ All the layers except last few layers of the model are frozen.
 The top layer of the model is not used. Instead, a dense layer with 6 units and softmax activation is used.
 VGG16 took the longest to train while mobileNet is the quickest.
 Results
+
 Accuracy and loss plots along with Confusion matrix is plotted for all models.
+
 Validation accuracies are as follows
+
 Customized CNN - 89%
 VGG16 - 89.13%
 Inception_V3 - 85.8%
 ResNet50 - 82%
 mobileNet - 91%
+
 MobileNet is best in all aspects (Accuracy,Precision,Recall)
