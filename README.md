@@ -5,16 +5,27 @@ The dataset can be obtained from Kaggle : https://www.kaggle.com/competitions/pl
 This Data contains around 5545 images of size 150x150 distributed under 12 categories.
 The categories are:
 Black-grass
+
 Charlock
+
 Cleavers
+
 Common Chickweed
+
 Common wheat
+
 Fat Hen
+
 Loose Silky-bent
+
 Maize
+
 Scentless Mayweed
+
 Shepherd's Purse
+
 Small-flowered Cranesbill
+
 Sugar beet
 
 The Train, Test and Prediction data is separated . 
