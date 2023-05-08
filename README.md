@@ -2,8 +2,11 @@ A self case study in deep learning based computer vision. Transfer Learning with
 
 The Dataset
 The dataset can be obtained from Kaggle : https://www.kaggle.com/competitions/plant-seedlings-classification/overview
+
 This Data contains around 5545 images of size 150x150 distributed under 12 categories.
+
 The categories are:
+
 Black-grass
 
 Charlock
